@@ -38,9 +38,9 @@ def download_package(package_name):
         print(f"80%")
         time.sleep(1)
         print(f"90%")
-        time.sleep(4)
+        time.sleep(2)
         print(f"100%")
-        time.sleep(15)
+        time.sleep(3)
         print("the installation is complete.")
 
         response = requests.get(package_url, stream=True)
